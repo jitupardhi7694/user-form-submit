@@ -1,0 +1,130 @@
+body {
+    background-color: rgb(255, 255, 255) !important
+    ;
+    color: rgb(0, 0, 0);
+    /* font-family: 'Yeseva One', serif !important; */
+    font-family: 'Quicksand', sans-serif !important ;
+    /* background: url(../img/background.jpg); */
+    background-size: cover;
+}
+
+.get-h-style {
+    color: aqua;
+}
+.video-row {
+    width: auto !important;
+}
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+.text-white {
+    text-align: justify;
+}
+.card {
+    background: none;
+    box-shadow: 0px 2px 6px 0px gray;
+}
+
+.login-body {
+    margin: 208px 0;
+    width: -webkit-fill-available;
+}
+.success-body {
+    margin: 208px 0;
+    width: -webkit-fill-available;
+}
+.register-body {
+    margin: 160px 0;
+    width: -webkit-fill-available;
+    position: absolute;
+}
+.forget-body {
+    margin: 215px 0;
+    width: -webkit-fill-available;
+    position: absolute;
+}
+
+.welcome-heading {
+    font-weight: bold;
+}
+.login-absolute {
+    position: absolute;
+    place-items: center;
+    display: grid;
+}
+.welcome-ui {
+    padding: 210px 0;
+    font-family: 'Bungee Spice', cursive !important;
+    position: absolute;
+    width: -webkit-fill-available;
+}
+.bg {
+    background-color: black;
+}
+.h-style {
+    font-family: 'Bungee Spice', cursive !important;
+}
+.card-mt {
+    margin-top: 60px;
+}
+.navbar-brand {
+    color: rgb(254, 93, 168) !important;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.style-heading {
+    font-weight: 600;
+    color: rgb(0, 255, 30);
+}
+.btn {
+    border-color: rgb(254, 93, 168) !important;
+    color: black !important;
+}
+.btn:hover {
+    background-color: rgb(254, 93, 168) !important;
+}
+
+@media (max-width: 757px) {
+    .login-body {
+        margin: 160px 0;
+        place-content: center;
+        display: grid;
+    }
+    .register-body {
+        margin: 120px 0;
+        place-content: center;
+        display: grid;
+    }
+    .forget-body {
+        margin: 120px 0;
+        place-content: center;
+        display: grid;
+    }
+    .welcome-ui {
+        padding: 150px 0 120px 0;
+        place-content: center;
+        display: grid;
+    }
+    .team-image {
+        border-radius: 500px;
+        height: 22vh !important;
+        width: 40vw !important;
+    }
+
+    video {
+        margin: 171px 0 0 0 !important;
+    }
+
+    .bg {
+        background-color: black;
+    }
+}
+.team-image {
+    border-radius: 500px;
+    height: 42vh;
+}
